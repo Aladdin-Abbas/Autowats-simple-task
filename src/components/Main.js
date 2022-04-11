@@ -40,10 +40,6 @@ const Main = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={classes.container}>
-        <img src={mobImg} alt="Mobile" className={classes.mob} />
-      </div> */}
       <div className={classes.wrapper}>
         <div className={classes["wrapper--left"]}>
           <div>
@@ -113,22 +109,6 @@ const Main = () => {
         </p>
         <div>
           <img src={testmonial} alt="" className={classes.background} />
-          {/* <div className={classes["comment-wrapper"]}> */}
-          {/* <div
-            className={`${classes["comment-wrapper"]} ${classes["comment-wrapper--1"]}`}
-          >
-            <img
-              src={commentImgOne}
-              alt=""
-              className={classes["first_comment"]}
-            />
-            <input type="checkbox" name="" id="" />
-            <div className={classes["testmonial-comment"]}>
-              <h3>Adam Shady</h3>
-              <p>This service helped me with my bussiness.</p>
-              <img src={stars} alt="" />
-            </div>
-          </div> */}
           <div
             className={`${classes["comment-wrapper"]} ${classes["comment-wrapper--1"]}`}
           >
@@ -144,23 +124,6 @@ const Main = () => {
               <img src={stars} alt="" />
             </div>
           </div>
-
-          {/* <div
-            className={`${classes["comment-wrapper"]} ${classes["comment-wrapper--2"]}`}
-          >
-            <img
-              src={commentImgTwo}
-              alt=""
-              className={classes["first_comment"]}
-            />
-            <input type="checkbox" name="" id="" />
-            <div className={classes["testmonial-comment"]}>
-              <h3>Adam Shady</h3>
-              <p>This service helped me with my bussiness.</p>
-              <img src={stars} alt="" />
-            </div>
-          </div> */}
-
           <div
             className={`${classes["comment-wrapper"]} ${classes["comment-wrapper--2"]}`}
           >
@@ -240,16 +203,6 @@ const Main = () => {
               <img src={stars} alt="" />
             </div>
           </div>
-          {/* <img
-            src={commentImgOne}
-            alt=""
-            className={classes["first_comment"]}
-          />
-          <div>
-            <h3>Adam Shady</h3>
-            <p>This service helped me with my bussiness.</p>
-            <img src={stars} alt="" />
-          </div> */}
         </div>
       </div>
     </>

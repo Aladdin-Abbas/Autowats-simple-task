@@ -1,11 +1,9 @@
 .main {
-  /* background-image: url("../../public/Main-edit.svg"); */
   background-image: url("../../public/main.webp");
   height: 866px;
   width: 100%;
   background-size: cover;
   background-position: center;
-  background-color: red;
 }
 
 .content {
@@ -62,43 +60,6 @@
 .container {
   position: relative;
 }
-
-/* .mob {
-  position: absolute;
-  top: -117px;
-  left: 50%;
-  transform: translateX(-171px);
-} */
-
-/* .comments {
- 
-  height: 100vh;
-  background-color: red;
-  margin-top: -22px;
-} */
-
-/* .gridContainer {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 375px 64px 343px 64px 375px;
-  width: 95%;
-  margin: 0 auto;
-  grid-auto-rows: min-content;
-}
-
-.left-head,
-.left-paragraph {
-  grid-column: 1/2;
-}
-.right-svg {
-  grid-column: 2/3;
-}
-
-.mob {
-  grid-column: 3/4;
-  grid-row-start: 1;
-  grid-row-end: 6;
-} */
 
 .wrapper {
   padding: 60px 41px;
@@ -185,9 +146,6 @@
 }
 .testmonial > div {
   width: 100%;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   position: relative;
 }
 
@@ -196,8 +154,6 @@
   width: 1300px;
   display: block;
   margin: 0 auto;
-
-  /* margin-bottom: 101px; */
 }
 
 .comment-wrapper {
@@ -256,12 +212,6 @@
   position: relative;
 }
 
-/* .first_comment:active,
-.first_comment:hover + .testmonial-comment {
-  visibility: visible;
-  display: flex;
-} */
-
 .testmonial-comment {
   background-color: #ffffff;
   width: 280px;
@@ -275,8 +225,6 @@
   border: 1px solid #c4c4c4;
   gap: 10px;
   position: relative;
-
-  /* visibility: hidden; */
   display: none;
 }
 
@@ -324,48 +272,11 @@
   outline: none;
   cursor: pointer;
   position: absolute;
-  /* visibility: hidden; */
 }
 
 .comment-wrapper input:checked + .testmonial-comment {
   display: flex;
 }
-
-/* .first_comment {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  top: 130px;
-  right: 340px;
-}
-
-.first_comment + div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top: 130px;
-  right: 340px;
-}
-.first_comment + div p {
-  margin: 0;
-}
-
-.first_comment + div img {
-  width: 120px !important;
-  height: 60px !important;
-  display: inline-block;
-} */
-/****/
-/* .testmonial div {
-  height: 657px;
-  background-image: url("./testmonial.svg");
-  width: 80vw;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
 
 @media (max-width: 950px) {
   .content h1 {
